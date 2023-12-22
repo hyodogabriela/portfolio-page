@@ -1,4 +1,47 @@
 h1 {
     text-align: center;
+    font-family: 'Rokkitt', serif;
+    font-size: 96px;
+    color: white;
+}
+
+h2 {
+    text-align: center;
     font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    color: white;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+}
+
+.hero {
+    background-color: #DF6C4F;
+    text-align: center;
+    padding: 100px 50px;
+}
+
+.hero h3{
+    margin: 0;
+}
+
+.btn-branding {
+    background-color: #f3e0dc;
+    color: #bc463a;
+    border-radius: 4px;
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    padding: 10px 20px;
+}
+
+.btn-branding:hover {
+    background-color: #bc463a;
+    color: #f3e0dc;
+    font-weight: 600;
 }
