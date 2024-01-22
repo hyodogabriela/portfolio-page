@@ -23,6 +23,7 @@ h2, h3 {
 
 p {
     line-height: 30px;
+    font-size: 16px;
 }
 
 .hero {
@@ -61,5 +62,21 @@ p {
 .weather-img {
     max-width: 400px;
     border-radius: 4px;
+}
 
+.btn-branding-outline {
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 4px;
+    margin-top: 30px;
+    font-family: var(--default-font-family);
+    font-size: 16px;
+    padding: 15px 30px;
+}
+
+.btn-branding-outline:hover {
+    background-color: var(--secondary-color);
+    color: #bc463a;
+    border-color: #bc463a;
+    font-weight: 600;
 }
